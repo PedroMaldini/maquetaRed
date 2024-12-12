@@ -3,5 +3,6 @@
   "/busqueda/page": "app/busqueda/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/detalle/page": "app/detalle/page.js",
-  "/_not-found/page": "app/_not-found/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/home/page": "app/home/page.js"
 }

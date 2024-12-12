@@ -4,10 +4,10 @@ import Footer from "@/components/Footer";
 export default function Detalle() {
   return (
     <main>
-      <Header />
-      <h1 className="text-2xl text-center">Lo estoy por hacer</h1>
-
-      <Footer />
+      <h1>Tengo que hacer una home todavia jeje</h1>
+      <a href="/busqueda" className="link">
+        Anda a resultado de busqueda
+      </a>
     </main>
   );
 }

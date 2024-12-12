@@ -1823,6 +1823,10 @@ html {
   margin-bottom: 2.5rem;
 }
 
+.ml-40 {
+  margin-left: 10rem;
+}
+
 .flex {
   display: flex;
 }
