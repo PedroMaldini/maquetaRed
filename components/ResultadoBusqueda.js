@@ -116,12 +116,14 @@ const ResultadoBusqueda = () => {
             key={index}
             className="card bg-base-100 shadow-lg p-4 flex flex-col lg:flex-row items-center space-y-4 lg:space-y-0 w-full"
           >
-            <figure className="w-full lg:w-80 border-black">
-              <img
-                src={articulo.imagen}
-                alt={articulo.nombre}
-                className="w-full h-auto object-cover border-black"
-              />
+            <figure className="w-full lg:w-80 border-black ">
+              <a href="/detalle">
+                <img
+                  src={articulo.imagen}
+                  alt={articulo.nombre}
+                  className="w-full h-auto object-cover border-black"
+                />
+              </a>
             </figure>
             <div className="flex flex-col lg:ml-6 w-full border-black">
               <h3 className="text-xl font-bold">🏨 Hotel: {articulo.nombre}</h3>

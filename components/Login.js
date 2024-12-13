@@ -1,7 +1,7 @@
 const Login = () => {
   return (
     <>
-      <section className="max-w-md mx-auto mt-24 p-6 shadow-lg rounded-lg bg-base-100 space-y-6 mb-10">
+      <section className="max-w-md mx-auto my-auto mt-24 p-6 shadow-lg rounded-lg bg-base-100 space-y-6 mb-10">
         <h1 className="text-2xl font-bold text-center p-2 bg-gradient-to-r  rounded-md">
           Login
         </h1>
