@@ -1,6 +1,5 @@
-const Direccionador = () => {
-  const partes = ["Overview", "Disponibilidad", "Mapa"];
-
+// components/Direccionador.js
+const Direccionador = ({ partes }) => {
   return (
     <div className="border-b border-gray-300 pb-5 mt-6">
       <ul className="flex justify-center space-x-10">

@@ -6,13 +6,15 @@ import Mapa from "@/components/Mapa";
 import TablaHabitaciones from "@/components/TablaHabitaciones";
 
 export default function Detalle() {
+  const partes = ["Overview", "Disponibilidad", "Mapa"]; // Definición del array
+
   return (
     <>
       <Header />
       <main>
         <section className="max-w-[80%] mx-auto">
-          <Direccionador />
-
+          <Direccionador partes={partes} />
+          {/* Usamos el componente y pasamos la prop partes */}
           <div className="my-8">
             <h1 id="Overview" className="text-2xl">
               Rio Buzios Boutique Hotel
@@ -38,10 +40,8 @@ export default function Detalle() {
               Volver a búsqueda
             </a>
           </div>
-
           <Carrusel />
           <Mapa />
-
           <div>
             <h3 className="text-2xl">Habitaciones</h3>
             <h4>

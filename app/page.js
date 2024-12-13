@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Login from "@/components/Login";
 
-export default function Home() {
+export default function LoginPage() {
   return (
     <main>
       <Header />

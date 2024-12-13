@@ -1,13 +1,24 @@
+// Componentes
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-export default function Detalle() {
+import Buscador from "@/components/Buscador";
+
+export default function HomePage() {
+  const horizontal = true;
   return (
-    <main>
-      <h1>Tengo que hacer una home todavia jeje</h1>
-      <a href="/busqueda" className="link">
-        Anda a resultado de busqueda
-      </a>
-    </main>
+    <>
+      <Header />
+      <main className=" mx-auto bg-base-300">
+        <div className="max-w-[95%]">
+          <div className="mt-8">
+            <div className="scale-90 opacity-90">
+              <Buscador horizontal={horizontal} />
+            </div>
+          </div>
+        </div>
+        <Footer />
+      </main>
+    </>
   );
 }

@@ -5,11 +5,14 @@ import ResultadoBusqueda from "@/components/ResultadoBusqueda";
 import Footer from "@/components/Footer";
 
 export default function Busqueda() {
+  const horizontal = false;
   return (
     <main className="bg-slate-100">
       <Header />
       <div className="flex">
-        <Buscador />
+        <div>
+          <Buscador />
+        </div>
         <ResultadoBusqueda />
       </div>
       <Footer />

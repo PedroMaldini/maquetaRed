@@ -6,7 +6,9 @@ const Header = () => {
         {/* Logo a la izquierda */}
         <div className="flex items-center space-x-3">
           {/* Asegúrate de tener un logo en la carpeta public */}
-          <h1 className="text-2xl font-semibold">Logo de Red</h1>
+          <h1 className="text-2xl font-semibold">
+            <a href="/home">Logo de Red</a>
+          </h1>
         </div>
 
         {/* Botones con iconos a la derecha usando DaisyUI */}
