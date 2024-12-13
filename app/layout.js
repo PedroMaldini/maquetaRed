@@ -26,7 +26,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" data-theme="emerald" className={inter.variable}>
+    <html
+      lang="en"
+      data-theme="emerald"
+      className={`${inter.variable} scroll-smooth`}
+    >
       <body>{children}</body>
     </html>
   );

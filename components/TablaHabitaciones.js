@@ -60,7 +60,7 @@ const HabitacionesTable = () => {
   ];
 
   return (
-    <div className="overflow-x-auto p-4">
+    <div id="Disponibilidad" className="overflow-x-auto p-4">
       <table className="table table-zebra w-full">
         <thead>
           <tr>

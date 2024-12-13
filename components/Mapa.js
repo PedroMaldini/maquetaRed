@@ -2,7 +2,10 @@ import React from "react";
 
 const Mapa = () => {
   return (
-    <div className="card w-full max-w-md bg-base-100 shadow-lg rounded-xl overflow-hidden p-4 mt-20 mx-auto">
+    <div
+      id="Mapa"
+      className="card w-full max-w-md bg-base-100 shadow-lg rounded-xl overflow-hidden p-4 mt-20 mx-auto"
+    >
       <h2 className="card-title text-xl font-semibold mb-4">Ver en el mapa</h2>
       <div className="map-container">
         <iframe

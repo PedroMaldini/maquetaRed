@@ -14,8 +14,10 @@ export default function Detalle() {
           <Direccionador />
 
           <div className="my-8">
-            <h1 className="text-2xl">Rio Buzios Boutique Hotel</h1>
-            <p className="opacity-80 text-start my-2">
+            <h1 id="Overview" className="text-2xl">
+              Rio Buzios Boutique Hotel
+            </h1>
+            <p className="opacity-80 text-start my-2 ">
               📍Praia de Joao Fernandes Búzios 28950-000
             </p>
             <a href="/busqueda" className=" flex link link-hover text-sm ">

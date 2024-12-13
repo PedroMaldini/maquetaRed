@@ -7,9 +7,11 @@ const Direccionador = () => {
         {partes.map((parte, index) => (
           <li
             key={index}
-            className="btn bg-transparent hover:bg-gray border-none"
+            className="btn bg-transparent hover:bg-gray-200 border-none"
           >
-            <a>{parte}</a>
+            <a href={`#${parte}`} className="text-gray-700 hover:text-blue-600">
+              {parte}
+            </a>
           </li>
         ))}
       </ul>
