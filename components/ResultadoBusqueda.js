@@ -103,9 +103,7 @@ const ResultadoBusqueda = () => {
 
   return (
     <section className="pr-20 mb-5">
-      <h2 className=" text-left text-2xl font-semibold  mb-2 ">
-        Buzios (Brasil)
-      </h2>
+      <h2 className="text-left text-2xl font-semibold mb-2">Buzios (Brasil)</h2>
       <p className="mb-4">
         Precios para 1 habitación del 26/12/2024 al 29/12/2024 | 3 noches | 2
         adultos
@@ -116,7 +114,7 @@ const ResultadoBusqueda = () => {
             key={index}
             className="card bg-base-100 shadow-lg p-4 flex flex-col lg:flex-row items-center space-y-4 lg:space-y-0 w-full"
           >
-            <figure className="w-full lg:w-80 border-black ">
+            <figure className="w-full lg:w-80 border-black">
               <a href="/detalle">
                 <img
                   src={articulo.imagen}
@@ -132,7 +130,9 @@ const ResultadoBusqueda = () => {
               </p>
               <div>
                 📍
-                <a className="link">Ver mapa</a>
+                <a href="https://maps.google.com" className="link">
+                  Ver mapa
+                </a>
               </div>
               <p className="text-sm">
                 🛌 Habitación: {articulo.tipoHabitacion}
@@ -142,7 +142,6 @@ const ResultadoBusqueda = () => {
               <p className="text-sm">ℹ️ Pago: {articulo.prepago}</p>
               <p className="text-sm">✍🏻{articulo.politicaCancelacion}</p>
             </div>
-
             <div className="flex flex-col items-end justify-end w-full lg:w-auto">
               <span className="text-lg font-semibold mb-2">
                 {articulo.precio}

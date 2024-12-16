@@ -1,39 +1,58 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHotel,
+  faUmbrellaBeach,
+  faTree,
+  faUtensils,
+  faShuttleVan,
+  faClipboardList,
+  faShoppingCart,
+} from "@fortawesome/free-solid-svg-icons";
+
 const Header = () => {
-  let xd = "i";
+  const icons = {
+    Hoteles: faHotel,
+    Actividades: faUmbrellaBeach,
+    Parques: faTree,
+    Gastronomia: faUtensils,
+    Traslados: faShuttleVan,
+    Reservas: faClipboardList,
+    Carrito: faShoppingCart,
+  };
+
+  const buttons = [
+    "Hoteles",
+    "Actividades",
+    "Parques",
+    "Gastronomia",
+    "Traslados",
+    "Reservas",
+    "Carrito",
+  ];
+
   return (
-    <div className="p-8  border-b border-gray-300 w-[90%] mx-auto  mb-5">
+    <div className="p-8 border-b border-gray-300 w-[90%] mx-auto mb-5">
       <div className="flex items-center justify-between">
         {/* Logo a la izquierda */}
         <div className="flex items-center space-x-3">
-          {/* Asegúrate de tener un logo en la carpeta public */}
           <h1 className="text-2xl font-semibold">
-            <a href="/home">Logo de Red</a>
+            <a href="/home">
+              <img src="/images/logo.png" className="pr-10"></img>
+            </a>
           </h1>
         </div>
 
         {/* Botones con iconos a la derecha usando DaisyUI */}
         <div className="hidden md:flex items-center space-x-6">
-          {[
-            `🏨 Hoteles`,
-            `🏖️ Actividades`,
-            `🎢 Parques`,
-            `🍔 Gastronomia`,
-            `🚐 Traslados`,
-            `🗒️ Mis Reservas`,
-            `🛒 Carrito`,
-          ].map((button) => (
+          {buttons.map((button) => (
             <button
-              key={button} // Usamos el texto del botón como la clave única
+              key={button}
               className="link link-hover btn-sm flex items-center space-x-2 font-semibold"
             >
+              <FontAwesomeIcon icon={icons[button]} className="size-6" />
               <span>{button}</span>
             </button>
           ))}
-        </div>
-
-        {/* Menú en móvil */}
-        <div className="md:hidden">
-          <button className="btn btn-outline btn-sm">Menú</button>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 {
   "app": {
-    "[project]/app/page": [
+    "[project]/app/detalle/page": [
       "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2",
       "static/media/GeistVF-s.p.7fe29570.woff",
       "static/media/GeistMonoVF-s.p.a9159d35.woff"
@@ -11,11 +11,6 @@
       "static/media/GeistMonoVF-s.p.a9159d35.woff"
     ],
     "[project]/app/busqueda/page": [
-      "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2",
-      "static/media/GeistVF-s.p.7fe29570.woff",
-      "static/media/GeistMonoVF-s.p.a9159d35.woff"
-    ],
-    "[project]/app/detalle/page": [
       "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2",
       "static/media/GeistVF-s.p.7fe29570.woff",
       "static/media/GeistMonoVF-s.p.a9159d35.woff"
