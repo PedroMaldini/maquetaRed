@@ -9,11 +9,11 @@ export default function ReservaConfirmada() {
     <>
       <Header />
       <main className="flex flex-col items-center justify-center my-40 ">
-        <div className=" p-8 rounded-lg shadow-lg text-center">
+        <div className=" p-8 rounded-lg shadow-lg text-center ">
           <h1 className="text-2xl font-bold mb-4">
             Su reserva ha sido completada
           </h1>
-          <p>
+          <p className="mb-4`">
             La reserva se generó con el número de file:
             <strong>{reservationNumber}</strong>
           </p>
