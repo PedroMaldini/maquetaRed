@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 
 const HabitacionesTable = () => {
@@ -60,7 +61,7 @@ const HabitacionesTable = () => {
   ];
 
   return (
-    <div id="Disponibilidad" className="overflow-x-auto p-4">
+    <div id="Disponibilidad" className="overflow-x-auto p-4 ">
       <table className="table table-zebra w-full">
         <thead>
           <tr>
@@ -96,6 +97,7 @@ const HabitacionesTable = () => {
                 <button
                   className="btn btn-primary text-white"
                   disabled={habitacion.disponibilidad !== "Disponible"}
+                  onClick={() => (window.location.href = "/checkout")}
                 >
                   Agregar
                 </button>

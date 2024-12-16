@@ -9,7 +9,7 @@ const Carrusel = () => {
   ];
 
   return (
-    <div className="mt-8 mb-8 max-w-[90%] mx-auto">
+    <div className="mt-8 mb-8  mx-auto">
       {/* Carrusel principal */}
       <div className="carousel w-full rounded-xl overflow-hidden shadow-lg relative">
         {images.map((src, index) => (

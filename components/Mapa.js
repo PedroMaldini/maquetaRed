@@ -4,7 +4,7 @@ const Mapa = () => {
   return (
     <div
       id="Mapa"
-      className="card w-full max-w-md bg-base-100 shadow-lg rounded-xl overflow-hidden p-4 mt-20 mx-auto"
+      className="card w-full  bg-base-100 shadow-lg rounded-xl overflow-hidden p-4 my-20 mx-auto"
     >
       <h2 className="card-title text-xl font-semibold mb-4">Ver en el mapa</h2>
       <div className="map-container">

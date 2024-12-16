@@ -306,7 +306,7 @@ const Carrusel = ()=>{
         "/images/4.jpeg"
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "mt-8 mb-8 max-w-[90%] mx-auto",
+        className: "mt-8 mb-8  mx-auto",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "carousel w-full rounded-xl overflow-hidden shadow-lg relative",
@@ -380,7 +380,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 const Mapa = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         id: "Mapa",
-        className: "card w-full max-w-md bg-base-100 shadow-lg rounded-xl overflow-hidden p-4 mt-20 mx-auto",
+        className: "card w-full  bg-base-100 shadow-lg rounded-xl overflow-hidden p-4 my-20 mx-auto",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                 className: "card-title text-xl font-semibold mb-4",
@@ -426,213 +426,10 @@ const __TURBOPACK__default__export__ = Mapa;
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, z: require } = __turbopack_context__;
 {
-__turbopack_esm__({
-    "default": (()=>__TURBOPACK__default__export__)
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$TablaHabitaciones$2e$js__$28$client__proxy$29$__$3c$module__evaluation$3e$__ = __turbopack_import__("[project]/components/TablaHabitaciones.js (client proxy) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$TablaHabitaciones$2e$js__$28$client__proxy$29$__ = __turbopack_import__("[project]/components/TablaHabitaciones.js (client proxy)");
 ;
-;
-const HabitacionesTable = ()=>{
-    const habitaciones = [
-        {
-            nombre: "Habitación Superior Vista Mar OZ",
-            desayuno: "Desayuno",
-            ocupacion: "2 Adultos 0 Menores",
-            precio: 1649.41,
-            disponibilidad: "Disponible",
-            prepago: "Prepago (13-12-2024)",
-            cancelacion: "29-10-2024 / 31-12-2024 | BRS 9566.52"
-        },
-        {
-            nombre: "Habitación Deluxe Vista Mar OZ",
-            desayuno: "Desayuno",
-            ocupacion: "2 Adultos 0 Menores",
-            precio: 1979.36,
-            disponibilidad: "Disponible",
-            prepago: "Prepago (13-12-2024)",
-            cancelacion: "29-10-2024 / 31-12-2024 | BRS 11480.22"
-        },
-        {
-            nombre: "Habitación Superior Vista Mar OZ",
-            desayuno: "Desayuno",
-            ocupacion: "2 Adultos 0 Menores",
-            precio: 1649.41,
-            disponibilidad: "Disponible",
-            prepago: "Prepago (13-12-2024)",
-            cancelacion: "29-10-2024 / 31-12-2024 | BRS 9566.52"
-        },
-        {
-            nombre: "Habitación Deluxe Vista Mar OZ",
-            desayuno: "Desayuno",
-            ocupacion: "2 Adultos 0 Menores",
-            precio: 1979.36,
-            disponibilidad: "Disponible",
-            prepago: "Prepago (13-12-2024)",
-            cancelacion: "29-10-2024 / 31-12-2024 | BRS 11480.22"
-        },
-        {
-            nombre: "Habitación Superior Vista Mar OZ",
-            desayuno: "Desayuno",
-            ocupacion: "2 Adultos 0 Menores",
-            precio: 1649.41,
-            disponibilidad: "Disponible",
-            prepago: "Prepago (13-12-2024)",
-            cancelacion: "29-10-2024 / 31-12-2024 | BRS 9566.52"
-        },
-        {
-            nombre: "Habitación Deluxe Vista Mar OZ",
-            desayuno: "Desayuno",
-            ocupacion: "2 Adultos 0 Menores",
-            precio: 1979.36,
-            disponibilidad: "Disponible",
-            prepago: "Prepago (13-12-2024)",
-            cancelacion: "29-10-2024 / 31-12-2024 | BRS 11480.22"
-        }
-    ];
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        id: "Disponibilidad",
-        className: "overflow-x-auto p-4",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("table", {
-            className: "table table-zebra w-full",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("thead", {
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
-                                children: "Habitación"
-                            }, void 0, false, {
-                                fileName: "[project]/components/TablaHabitaciones.js",
-                                lineNumber: 67,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
-                                children: "Precio"
-                            }, void 0, false, {
-                                fileName: "[project]/components/TablaHabitaciones.js",
-                                lineNumber: 68,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
-                                children: "Disponibilidad y Políticas"
-                            }, void 0, false, {
-                                fileName: "[project]/components/TablaHabitaciones.js",
-                                lineNumber: 69,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
-                                children: "Carrito"
-                            }, void 0, false, {
-                                fileName: "[project]/components/TablaHabitaciones.js",
-                                lineNumber: 70,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/TablaHabitaciones.js",
-                        lineNumber: 66,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/components/TablaHabitaciones.js",
-                    lineNumber: 65,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
-                    children: habitaciones.map((habitacion, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                    className: "font-semibold",
-                                    children: [
-                                        habitacion.nombre,
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                            fileName: "[project]/components/TablaHabitaciones.js",
-                                            lineNumber: 79,
-                                            columnNumber: 17
-                                        }, this),
-                                        habitacion.desayuno,
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                            fileName: "[project]/components/TablaHabitaciones.js",
-                                            lineNumber: 81,
-                                            columnNumber: 17
-                                        }, this),
-                                        habitacion.ocupacion
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/TablaHabitaciones.js",
-                                    lineNumber: 77,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                    children: [
-                                        "USD ",
-                                        habitacion.precio.toFixed(2)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/TablaHabitaciones.js",
-                                    lineNumber: 85,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                    children: [
-                                        habitacion.disponibilidad,
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                            fileName: "[project]/components/TablaHabitaciones.js",
-                                            lineNumber: 89,
-                                            columnNumber: 17
-                                        }, this),
-                                        habitacion.prepago,
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                            fileName: "[project]/components/TablaHabitaciones.js",
-                                            lineNumber: 91,
-                                            columnNumber: 17
-                                        }, this),
-                                        habitacion.cancelacion
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/TablaHabitaciones.js",
-                                    lineNumber: 87,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        className: "btn btn-primary text-white",
-                                        disabled: habitacion.disponibilidad !== "Disponible",
-                                        children: "Agregar"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/TablaHabitaciones.js",
-                                        lineNumber: 96,
-                                        columnNumber: 17
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/components/TablaHabitaciones.js",
-                                    lineNumber: 95,
-                                    columnNumber: 15
-                                }, this)
-                            ]
-                        }, index, true, {
-                            fileName: "[project]/components/TablaHabitaciones.js",
-                            lineNumber: 75,
-                            columnNumber: 13
-                        }, this))
-                }, void 0, false, {
-                    fileName: "[project]/components/TablaHabitaciones.js",
-                    lineNumber: 73,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/components/TablaHabitaciones.js",
-            lineNumber: 64,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "[project]/components/TablaHabitaciones.js",
-        lineNumber: 63,
-        columnNumber: 5
-    }, this);
-};
-const __TURBOPACK__default__export__ = HabitacionesTable;
+__turbopack_export_namespace__(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$TablaHabitaciones$2e$js__$28$client__proxy$29$__);
 }}),
 "[project]/app/detalle/page.js [app-rsc] (ecmascript)": ((__turbopack_context__) => {
 "use strict";

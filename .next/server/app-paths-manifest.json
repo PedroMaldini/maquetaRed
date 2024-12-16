@@ -4,5 +4,8 @@
   "/home/page": "app/home/page.js",
   "/busqueda/page": "app/busqueda/page.js",
   "/page": "app/page.js",
-  "/misReservas/page": "app/misReservas/page.js"
+  "/misReservas/page": "app/misReservas/page.js",
+  "/checkout/page": "app/checkout/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/reservaConfirmada/page": "app/reservaConfirmada/page.js"
 }
