@@ -1,3 +1,4 @@
+"use client";
 const Buscador = ({ horizontal }) => {
   if (!horizontal) {
     // Usar la propiedad correctamente
@@ -101,9 +102,11 @@ const Buscador = ({ horizontal }) => {
 
               {/* Botón Buscar */}
               <div className="form-control w-1/3 ml-auto">
-                <button type="submit" className="btn btn-primary w-full">
-                  <a href="/busqueda">Buscar</a>
-                </button>
+                <a href="/busqueda">
+                  <button type="submit" className="btn btn-primary w-full">
+                    Buscar
+                  </button>
+                </a>
               </div>
             </form>
           </div>
@@ -112,7 +115,7 @@ const Buscador = ({ horizontal }) => {
     );
   } else {
     return (
-      <div className="  max-w-[75%] mx-auto">
+      <div className="max-w-[75%] mx-auto">
         <div className="card bg-base-100 shadow-xl p-6">
           <div className="card-body">
             <div className="border-b border-gray-300 pb-4 mb-6">
@@ -121,7 +124,13 @@ const Buscador = ({ horizontal }) => {
               </h2>
             </div>
 
-            <form className="flex flex-wrap justify-between items-center gap-4">
+            <form
+              className="flex flex-wrap justify-between items-center gap-4"
+              onSubmit={(e) => {
+                e.preventDefault();
+                window.location.href = "/busqueda";
+              }}
+            >
               {/* Nacionalidad */}
               <div className="form-control w-full sm:w-1/4 mb-4">
                 <label className="label">
@@ -210,7 +219,7 @@ const Buscador = ({ horizontal }) => {
                   type="submit"
                   className="btn btn-primary w-full sm:w-auto"
                 >
-                  <a href="/busqueda">Buscar</a>
+                  Buscar
                 </button>
               </div>
             </form>
