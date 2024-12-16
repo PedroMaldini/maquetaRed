@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
     <html
       lang="en"
       data-theme="emerald"
-      className={`${inter.variable} scroll-smooth`}
+      className={`${geistSans.variable} scroll-smooth`}
     >
       <body>{children}</body>
     </html>
