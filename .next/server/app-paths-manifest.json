@@ -1,8 +1,7 @@
 {
-  "/detalle/page": "app/detalle/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/home/page": "app/home/page.js",
-  "/busqueda/page": "app/busqueda/page.js"
+  "/busqueda/page": "app/busqueda/page.js",
+  "/detalle/page": "app/detalle/page.js"
 }

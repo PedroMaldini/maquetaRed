@@ -243,23 +243,23 @@ const Direccionador = ({ partes })=>{
         className: "border-b border-gray-300 pb-5 mt-6",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
             className: "flex justify-center space-x-10",
-            children: partes.map((parte, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                    className: "btn bg-transparent hover:bg-gray-200 border-none",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                        href: `#${parte}`,
-                        className: "text-gray-700 hover:text-blue-600",
+            children: partes.map((parte, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                    href: `#${parte}`,
+                    className: "text-gray-700 hover:text-blue-600",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                        className: "btn bg-transparent hover:bg-gray-200 border-none",
                         children: parte
-                    }, void 0, false, {
+                    }, index, false, {
                         fileName: "[project]/components/Direccionador.js",
-                        lineNumber: 11,
+                        lineNumber: 8,
                         columnNumber: 13
                     }, this)
-                }, index, false, {
+                }, void 0, false, {
                     fileName: "[project]/components/Direccionador.js",
                     lineNumber: 7,
                     columnNumber: 11
                 }, this))
-        }, void 0, false, {
+        }, "ulDireccionador", false, {
             fileName: "[project]/components/Direccionador.js",
             lineNumber: 5,
             columnNumber: 7

@@ -1,0 +1,362 @@
+{
+  "SearchAM": {
+    "Hotels": {
+      "69158": {
+        "Code": 69158,
+        "GIATA": 0,
+        "Longitude": -22.744186,
+        "Latitude": -41.87759,
+        "Name": "Rio Buzios Beach Hotel",
+        "Address": "Praia de Jo\u00e3o Fernandes B\u00fazios 28950-000",
+        "Rating": 0,
+        "Selected": true,
+        "Images": [
+          "https://images.rturistica.com.ar/0P72xJN3gfTRhh98LYHAyVVjgtfjErqqqOm7YygR.jpeg",
+          "https://images.rturistica.com.ar/2VtVSqR5J6imTvINWOTbF69fTzpeJQUpvcesm9B0.jpeg",
+          "https://images.rturistica.com.ar/5c3295d27157d288540696.jpg",
+          "https://images.rturistica.com.ar/5c3295d27b2f7649028879.jpg",
+          "https://images.rturistica.com.ar/5c3295d28b941100365513.jpg",
+          "https://images.rturistica.com.ar/5c3295d299e45995756959.jpg",
+          "https://images.rturistica.com.ar/5c3295d2a4c8e366411491.jpg",
+          "https://images.rturistica.com.ar/5c3295d2aeef0536173530.jpg",
+          "https://images.rturistica.com.ar/5c3295d2b77fb836767978.jpg",
+          "https://images.rturistica.com.ar/5c3295d2c2f38146236927.jpg",
+          "https://images.rturistica.com.ar/5c3295d2cc0ea967646703.jpg",
+          "https://images.rturistica.com.ar/5c3295d2dbb9e521798971.jpg",
+          "https://images.rturistica.com.ar/5c3295d2f1f14548901653.jpg",
+          "https://images.rturistica.com.ar/5c3295d30680f064090371.jpg",
+          "https://images.rturistica.com.ar/5c3295d316134872174781.jpg",
+          "https://images.rturistica.com.ar/5c3295d31d59e462935606.jpg",
+          "https://images.rturistica.com.ar/5c3295d325eaa974000469.jpg",
+          "https://images.rturistica.com.ar/5c3295d3342ea756624845.jpg",
+          "https://images.rturistica.com.ar/5c3295d33de38961134575.jpg",
+          "https://images.rturistica.com.ar/5c3295d34952d333291069.jpg",
+          "https://images.rturistica.com.ar/5c3295d360c65769387822.jpg",
+          "https://images.rturistica.com.ar/5c3295d375dec959275678.jpg",
+          "https://images.rturistica.com.ar/5c3295d38b890256460566.jpg",
+          "https://images.rturistica.com.ar/5c3295d393b72635476755.jpg",
+          "https://images.rturistica.com.ar/5c3295d39cf1f511929225.jpg",
+          "https://images.rturistica.com.ar/5c3295d3a4771681083336.jpg",
+          "https://images.rturistica.com.ar/5c3295d3b7fe5174609241.jpg",
+          "https://images.rturistica.com.ar/5c3295d3c60ed200369125.jpg",
+          "https://images.rturistica.com.ar/6AIfpxnoqijPjuhH0tYufkcdz56nFD2ImTVwComA.jpeg",
+          "https://images.rturistica.com.ar/7oYPu9HDbc8ZD2mHleOWejhawwBiO3hpYdbal6G8.jpeg",
+          "https://images.rturistica.com.ar/8ubEQiXyi155FHvcFT5K6kvCZx0ndl1svsfFFIb0.jpeg",
+          "https://images.rturistica.com.ar/8VJ9kdjmtZFSV8hjLTuv3X7OGctzgcu8r7cr0bbk.jpeg",
+          "https://images.rturistica.com.ar/9mAWfgAoNKdCr8rfbSnwOquJS1DAyHHhVhmSxEoX.jpeg",
+          "https://images.rturistica.com.ar/assik09axeLWoVBBXlaS3OnPbyDi4G1tAWUUrbIo.jpeg",
+          "https://images.rturistica.com.ar/cUhppj9jBMa1g30ox3TPbYUqeNOEab4pBr6DxTW1.jpeg",
+          "https://images.rturistica.com.ar/G830gBu0wHzde2zDOJREmxWsc4pGmw8unKgaUwgh.jpeg",
+          "https://images.rturistica.com.ar/GPkR9gnu9kPaVwOJtxmf8NL3aJQMxD8hOjjpO3nc.jpeg",
+          "https://images.rturistica.com.ar/gryNR0hSATy2QlgH07QAv1ySTbPz71Q6KzSJGrXq.jpeg",
+          "https://images.rturistica.com.ar/HJo3s9EfgRComhxjWcVU4BRTi7HeF6rkJxdIDYoy.jpeg",
+          "https://images.rturistica.com.ar/I3OPQFkPoDEFCtMHvB066KcDkgKgsPzcoouPfUrq.jpeg",
+          "https://images.rturistica.com.ar/i8Uatr7nPvkrLvbWS5ZRwQNL5qxp5hQDRmN9AZG5.jpeg",
+          "https://images.rturistica.com.ar/InN7xFNkAqVZbFc8MH6ptcbUEaxEMkMRSxhvMwp0.jpeg",
+          "https://images.rturistica.com.ar/iOQTyNZSQSizIm0wRk49c7okjpOAUgoRwy3qt16E.jpeg",
+          "https://images.rturistica.com.ar/ixuPSnLTu1r6x024kmHyNX7SqezLQsGnaJx0iHZU.jpeg",
+          "https://images.rturistica.com.ar/JFDqFbSoU9K3knaZWSuv4GHoVw3BtnejEaXoaIQ2.jpeg",
+          "https://images.rturistica.com.ar/jHtNpXa4OXhBXY2SpZaGjJ1u8MKupzuQORhUOLVA.jpeg",
+          "https://images.rturistica.com.ar/JVNeIC7BUY2zuzkue6U8UsPjfh2U8xnIbLUGAuaG.jpeg",
+          "https://images.rturistica.com.ar/LTaYdGReKeApLIxWNs1COxDG9W8V2pfcayKEbwX8.jpeg",
+          "https://images.rturistica.com.ar/luE9Q4vyiPThpUoVfgiCCWJ5nAimhgyjR1Ecodrb.jpeg",
+          "https://images.rturistica.com.ar/LVhcGl80ZhL4acNpbh56EeIzBz0lqMFx5JnkANCZ.jpeg",
+          "https://images.rturistica.com.ar/MAvVL1csIPV9aFFaPRrcxnta6l8y486zERESIPjH.jpeg",
+          "https://images.rturistica.com.ar/nKLg8JJeeB7LVNHX9TQasM46leRkqlEeyWBZxX3Q.jpeg",
+          "https://images.rturistica.com.ar/oLDHSJcKbJJyrpawtHK7c2oU3swBt6mw7uth4sQW.jpeg",
+          "https://images.rturistica.com.ar/p3zzAw0k6Tj0kUJ6dfgoLDoTcf4oJDtzodETitDk.jpeg",
+          "https://images.rturistica.com.ar/P6F6BIDvFqP90QHlIC2E0qC4qBF2iVAvZd5Iknnu.jpeg",
+          "https://images.rturistica.com.ar/Qu7GUSGwkLVOSLgzU4yyHOTAUgJDf9Q38aIpRDxT.jpeg",
+          "https://images.rturistica.com.ar/rfh557kqJs5tRJygV82PbgciOFClThV8eik0Wsm3.jpeg",
+          "https://images.rturistica.com.ar/uJ5tSgRNCsH8ac2WdVzIPJiMx3VJnLavP9w680h7.jpeg",
+          "https://images.rturistica.com.ar/vU29OD6tIOqnOAh8Lbtr6rmHqaEqScorqShLAbNT.jpeg",
+          "https://images.rturistica.com.ar/WXGZlSbEbfWT0fvDYC9Avb1YU0xoNXFyyGJd2RRB.jpeg",
+          "https://images.rturistica.com.ar/Y2rBL2OMZ8pVMeblfVzFi0MuJsLvxeI7HcIbhGtZ.jpeg",
+          "https://images.rturistica.com.ar/ZPr0djjenEx4A6jSSxz2nFLDq26eBMXXaMTYhIhL.jpeg",
+          "https://images.rturistica.com.ar/zWFAPOOwGh1l5HUhL1W6PcaSw9srzxea1h8xYnnL.jpeg"
+        ],
+        "DestinationDetails": {
+          "City": { "Code": 26, "Name": "Buzios" },
+          "Country": { "Code": 29, "Name": "Brasil" },
+          "State": { "Name": "" }
+        },
+        "Rates": {
+          "07697da2-ca3f-4cf2-a880-16f4d1e4164c": {
+            "Code": "07697da2-ca3f-4cf2-a880-16f4d1e4164c",
+            "ExternalReference": "OZ6533",
+            "Rooms": [
+              {
+                "Availability": "CNF",
+                "Occupancy": "2/1/0",
+                "Type": "HABITACION  JARDIN",
+                "Room": "Standard Vista Jard\u00edn"
+              }
+            ],
+            "Promos": [],
+            "AdditionalFeatures": null,
+            "PropertyFees": null,
+            "RatePrices": [
+              {
+                "Type": "NET",
+                "Description": "Price After Tax",
+                "Currency": "USD",
+                "CurrencyType": "",
+                "Price": 222.39
+              },
+              {
+                "Type": "PBT",
+                "Description": "Price Before Tax",
+                "Currency": "USD",
+                "CurrencyType": "",
+                "Price": 222.39
+              },
+              {
+                "Type": "IVA",
+                "Description": "IVA Detail",
+                "Currency": "USD",
+                "CurrencyType": "",
+                "Price": 0
+              }
+            ],
+            "Taxes": [
+              {
+                "type": "iva",
+                "description": "IVA 21%",
+                "amount": 0,
+                "currency": "USD",
+                "price_iva_included": 222.39,
+                "relation": "display"
+              }
+            ],
+            "Prepay": true,
+            "PrepayPolicies": [
+              {
+                "from": "13-12-2024",
+                "to": "2025-04-16",
+                "currency": "BRS",
+                "amount": 1281.28
+              }
+            ],
+            "PrepayExpireDay": "13-12-2024",
+            "Board": { "DESAYUNO": "DESAYUNO" },
+            "cancellation_policies": [
+              {
+                "from": "2025-04-04",
+                "to": "2025-04-16",
+                "currency": "BRS",
+                "amount": 639.36,
+                "notRefundable": false
+              }
+            ]
+          },
+          "a7a4b2d0-8912-4a74-8fab-0a58995db439": {
+            "Code": "a7a4b2d0-8912-4a74-8fab-0a58995db439",
+            "ExternalReference": "OZ6533",
+            "Rooms": [
+              {
+                "Availability": "CNF",
+                "Occupancy": "2/1/0",
+                "Type": "HABITACION ESTANDAR VISTA MAR",
+                "Room": "Standard Vista al Mar"
+              }
+            ],
+            "Promos": [],
+            "AdditionalFeatures": null,
+            "PropertyFees": null,
+            "RatePrices": [
+              {
+                "Type": "NET",
+                "Description": "Price After Tax",
+                "Currency": "USD",
+                "CurrencyType": "",
+                "Price": 255.82
+              },
+              {
+                "Type": "PBT",
+                "Description": "Price Before Tax",
+                "Currency": "USD",
+                "CurrencyType": "",
+                "Price": 255.82
+              },
+              {
+                "Type": "IVA",
+                "Description": "IVA Detail",
+                "Currency": "USD",
+                "CurrencyType": "",
+                "Price": 0
+              }
+            ],
+            "Taxes": [
+              {
+                "type": "iva",
+                "description": "IVA 21%",
+                "amount": 0,
+                "currency": "USD",
+                "price_iva_included": 255.82,
+                "relation": "display"
+              }
+            ],
+            "Prepay": true,
+            "PrepayPolicies": [
+              {
+                "from": "13-12-2024",
+                "to": "2025-04-16",
+                "currency": "BRS",
+                "amount": 1473.92
+              }
+            ],
+            "PrepayExpireDay": "13-12-2024",
+            "Board": { "DESAYUNO": "DESAYUNO" },
+            "cancellation_policies": [
+              {
+                "from": "2025-04-04",
+                "to": "2025-04-16",
+                "currency": "BRS",
+                "amount": 735.49,
+                "notRefundable": false
+              }
+            ]
+          },
+          "405d3053-bfb9-4d9c-8d98-555d78e23c25": {
+            "Code": "405d3053-bfb9-4d9c-8d98-555d78e23c25",
+            "ExternalReference": "OZ6533",
+            "Rooms": [
+              {
+                "Availability": "CNF",
+                "Occupancy": "2/1/0",
+                "Type": "HABITACION LUJO",
+                "Room": "Habitaci\u00f3n Lujo"
+              }
+            ],
+            "Promos": [],
+            "AdditionalFeatures": null,
+            "PropertyFees": null,
+            "RatePrices": [
+              {
+                "Type": "NET",
+                "Description": "Price After Tax",
+                "Currency": "USD",
+                "CurrencyType": "",
+                "Price": 255.82
+              },
+              {
+                "Type": "PBT",
+                "Description": "Price Before Tax",
+                "Currency": "USD",
+                "CurrencyType": "",
+                "Price": 255.82
+              },
+              {
+                "Type": "IVA",
+                "Description": "IVA Detail",
+                "Currency": "USD",
+                "CurrencyType": "",
+                "Price": 0
+              }
+            ],
+            "Taxes": [
+              {
+                "type": "iva",
+                "description": "IVA 21%",
+                "amount": 0,
+                "currency": "USD",
+                "price_iva_included": 255.82,
+                "relation": "display"
+              }
+            ],
+            "Prepay": true,
+            "PrepayPolicies": [
+              {
+                "from": "13-12-2024",
+                "to": "2025-04-16",
+                "currency": "BRS",
+                "amount": 1473.92
+              }
+            ],
+            "PrepayExpireDay": "13-12-2024",
+            "Board": { "DESAYUNO": "DESAYUNO" },
+            "cancellation_policies": [
+              {
+                "from": "2025-04-04",
+                "to": "2025-04-16",
+                "currency": "BRS",
+                "amount": 735.49,
+                "notRefundable": false
+              }
+            ]
+          },
+          "6582cef9-744b-4ea1-9664-54b2be7c9bd3": {
+            "Code": "6582cef9-744b-4ea1-9664-54b2be7c9bd3",
+            "ExternalReference": "OZ6533",
+            "Rooms": [
+              {
+                "Availability": "CNF",
+                "Occupancy": "2/1/0",
+                "Type": "HABITACION LUJO VISTA MAR",
+                "Room": "Habitaci\u00f3n Lujo Vista Mar"
+              }
+            ],
+            "Promos": [],
+            "AdditionalFeatures": null,
+            "PropertyFees": null,
+            "RatePrices": [
+              {
+                "Type": "NET",
+                "Description": "Price After Tax",
+                "Currency": "USD",
+                "CurrencyType": "",
+                "Price": 295.87
+              },
+              {
+                "Type": "PBT",
+                "Description": "Price Before Tax",
+                "Currency": "USD",
+                "CurrencyType": "",
+                "Price": 295.87
+              },
+              {
+                "Type": "IVA",
+                "Description": "IVA Detail",
+                "Currency": "USD",
+                "CurrencyType": "",
+                "Price": 0
+              }
+            ],
+            "Taxes": [
+              {
+                "type": "iva",
+                "description": "IVA 21%",
+                "amount": 0,
+                "currency": "USD",
+                "price_iva_included": 295.87,
+                "relation": "display"
+              }
+            ],
+            "Prepay": true,
+            "PrepayPolicies": [
+              {
+                "from": "13-12-2024",
+                "to": "2025-04-16",
+                "currency": "BRS",
+                "amount": 1704.64
+              }
+            ],
+            "PrepayExpireDay": "13-12-2024",
+            "Board": { "DESAYUNO": "DESAYUNO" },
+            "cancellation_policies": [
+              {
+                "from": "2025-04-04",
+                "to": "2025-04-16",
+                "currency": "BRS",
+                "amount": 850.62,
+                "notRefundable": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Token": "BCAC987F-327A-4108-B0AC-A2B2D234FC1C",
+    "SearchId": "RTb29a065e"
+  }
+}
