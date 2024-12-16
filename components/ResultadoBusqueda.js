@@ -98,13 +98,19 @@ const ResultadoBusqueda = () => {
                   Ver mapa
                 </a>
               </div>
+              <div>
+                <p className="text-sm pt-2">🥞 Régimen: Desayuno</p>
+              </div>
+              <div>
+                <p className="text-sm pt-1">✅ Estado: Disponible</p>
+              </div>
             </div>
             <div className="flex flex-col items-end justify-end w-full lg:w-auto">
               <span className="text-lg font-semibold mb-2">
                 {articulo.precio}
               </span>
               <a href="/detalle">
-                <button className="btn btn-primary btn-sm">Detalle</button>
+                <button className="btn btn-primary btn-sm">Habitaciones</button>
               </a>
             </div>
           </div>
