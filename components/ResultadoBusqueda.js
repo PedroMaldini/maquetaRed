@@ -3,99 +3,63 @@ const ResultadoBusqueda = () => {
     {
       nombre: "Rio Buzios Beach Hotel",
       direccion: "Praia de João Fernandes Búzios 28950-000",
-      tipoHabitacion: "Standard Vista Jardín OZ",
-      desayuno: "Desayuno",
       disponibilidad: "Disponible",
-      prepago: "Prepago (11-12-2024)",
-      politicaCancelacion: "Políticas de cancelación",
       precio: "$200",
-      imagen: "https://via.placeholder.com/150",
+      imagen: "./images/1.jpeg",
     },
     {
       nombre: "Hotel Pousada da Praia",
       direccion: "Rua das Pedras 111, Búzios",
-      tipoHabitacion: "Deluxe Vista Mar",
-      desayuno: "Desayuno",
       disponibilidad: "Disponible",
-      prepago: "Prepago (15-12-2024)",
-      politicaCancelacion: "Políticas de cancelación",
       precio: "$150",
-      imagen: "https://via.placeholder.com/150",
+      imagen: "./images/2.jpeg",
     },
     {
       nombre: "Pousada do Sol",
       direccion: "Rua dos Oceanos 22, Búzios",
-      tipoHabitacion: "Superior Frente al Mar",
-      desayuno: "Desayuno",
       disponibilidad: "Disponible",
-      prepago: "Prepago (18-12-2024)",
-      politicaCancelacion: "Políticas de cancelación",
       precio: "$180",
-      imagen: "https://via.placeholder.com/150",
+      imagen: "./images/3.jpeg",
     },
     {
       nombre: "Villa Serena",
       direccion: "Praia Rasa 45, Búzios",
-      tipoHabitacion: "Habitación Deluxe",
-      desayuno: "Incluido",
       disponibilidad: "Disponible",
-      prepago: "Prepago (15-12-2024)",
-      politicaCancelacion: "Sin devolución",
       precio: "$220",
-      imagen: "https://via.placeholder.com/150",
+      imagen: "./images/4.jpeg",
     },
     {
       nombre: "Hotel Atlántico",
       direccion: "Av. Geribá 10, Búzios",
-      tipoHabitacion: "Suite Presidencial",
-      desayuno: "Buffet",
       disponibilidad: "Disponible",
-      prepago: "Prepago (20-12-2024)",
-      politicaCancelacion: "Flexible",
       precio: "$350",
       imagen: "https://via.placeholder.com/150",
     },
     {
       nombre: "Búzios Beach Resort",
       direccion: "Praia de Tucuns, Búzios",
-      tipoHabitacion: "Bungalow Familiar",
-      desayuno: "Incluido",
       disponibilidad: "Disponible",
-      prepago: "Prepago (25-12-2024)",
-      politicaCancelacion: "Sin devolución",
       precio: "$400",
       imagen: "https://via.placeholder.com/150",
     },
     {
       nombre: "Casa Blanca Inn",
       direccion: "Rua das Pedras 88, Búzios",
-      tipoHabitacion: "Habitación Estándar",
-      desayuno: "Continental",
       disponibilidad: "Agotado",
-      prepago: "N/A",
-      politicaCancelacion: "Sin devolución",
       precio: "$150",
       imagen: "https://via.placeholder.com/150",
     },
     {
       nombre: "Sol y Mar Lodge",
       direccion: "Rua das Gaivotas 33, Búzios",
-      tipoHabitacion: "Habitación con Balcón",
-      desayuno: "Incluido",
       disponibilidad: "Disponible",
-      prepago: "Prepago (22-12-2024)",
-      politicaCancelacion: "Moderada",
       precio: "$200",
       imagen: "https://via.placeholder.com/150",
     },
     {
       nombre: "Ocean View Boutique",
       direccion: "Praia João Fernandes, Búzios",
-      tipoHabitacion: "Habitación Premium",
-      desayuno: "Buffet",
       disponibilidad: "Disponible",
-      prepago: "Prepago (18-12-2024)",
-      politicaCancelacion: "Estricto",
       precio: "$270",
       imagen: "https://via.placeholder.com/150",
     },
@@ -112,14 +76,14 @@ const ResultadoBusqueda = () => {
         {articulos.map((articulo, index) => (
           <div
             key={index}
-            className="card bg-base-100 shadow-lg p-4 flex flex-col lg:flex-row items-center space-y-4 lg:space-y-0 w-full"
+            className="card bg-base-100 shadow-lg p-4 flex flex-col lg:flex-row items-center space-y-4 lg:space-y-0 "
           >
-            <figure className="w-full lg:w-80 border-black">
+            <figure className="w-full lg:w-80">
               <a href="/detalle">
                 <img
                   src={articulo.imagen}
                   alt={articulo.nombre}
-                  className="w-full h-auto object-cover border-black"
+                  className=" max-w-50 h-auto object-cover border-black"
                 />
               </a>
             </figure>
@@ -134,13 +98,6 @@ const ResultadoBusqueda = () => {
                   Ver mapa
                 </a>
               </div>
-              <p className="text-sm">
-                🛌 Habitación: {articulo.tipoHabitacion}
-              </p>
-              <p className="text-sm">🥞 Régimen: {articulo.desayuno}</p>
-              <p className="text-sm">✅ Estado: {articulo.disponibilidad}</p>
-              <p className="text-sm">ℹ️ Pago: {articulo.prepago}</p>
-              <p className="text-sm">✍🏻{articulo.politicaCancelacion}</p>
             </div>
             <div className="flex flex-col items-end justify-end w-full lg:w-auto">
               <span className="text-lg font-semibold mb-2">

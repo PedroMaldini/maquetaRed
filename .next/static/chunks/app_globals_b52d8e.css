@@ -1756,6 +1756,22 @@ html {
   max-width: 24rem;
 }
 
+.max-w-3 {
+  max-width: .75rem;
+}
+
+.max-w-2 {
+  max-width: .5rem;
+}
+
+.max-w-20 {
+  max-width: 5rem;
+}
+
+.max-w-40 {
+  max-width: 10rem;
+}
+
 .grow {
   flex-grow: 1;
 }

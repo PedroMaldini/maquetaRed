@@ -879,99 +879,63 @@ const ResultadoBusqueda = ()=>{
         {
             nombre: "Rio Buzios Beach Hotel",
             direccion: "Praia de João Fernandes Búzios 28950-000",
-            tipoHabitacion: "Standard Vista Jardín OZ",
-            desayuno: "Desayuno",
             disponibilidad: "Disponible",
-            prepago: "Prepago (11-12-2024)",
-            politicaCancelacion: "Políticas de cancelación",
             precio: "$200",
-            imagen: "https://via.placeholder.com/150"
+            imagen: "./images/1.jpeg"
         },
         {
             nombre: "Hotel Pousada da Praia",
             direccion: "Rua das Pedras 111, Búzios",
-            tipoHabitacion: "Deluxe Vista Mar",
-            desayuno: "Desayuno",
             disponibilidad: "Disponible",
-            prepago: "Prepago (15-12-2024)",
-            politicaCancelacion: "Políticas de cancelación",
             precio: "$150",
-            imagen: "https://via.placeholder.com/150"
+            imagen: "./images/2.jpeg"
         },
         {
             nombre: "Pousada do Sol",
             direccion: "Rua dos Oceanos 22, Búzios",
-            tipoHabitacion: "Superior Frente al Mar",
-            desayuno: "Desayuno",
             disponibilidad: "Disponible",
-            prepago: "Prepago (18-12-2024)",
-            politicaCancelacion: "Políticas de cancelación",
             precio: "$180",
-            imagen: "https://via.placeholder.com/150"
+            imagen: "./images/3.jpeg"
         },
         {
             nombre: "Villa Serena",
             direccion: "Praia Rasa 45, Búzios",
-            tipoHabitacion: "Habitación Deluxe",
-            desayuno: "Incluido",
             disponibilidad: "Disponible",
-            prepago: "Prepago (15-12-2024)",
-            politicaCancelacion: "Sin devolución",
             precio: "$220",
-            imagen: "https://via.placeholder.com/150"
+            imagen: "./images/4.jpeg"
         },
         {
             nombre: "Hotel Atlántico",
             direccion: "Av. Geribá 10, Búzios",
-            tipoHabitacion: "Suite Presidencial",
-            desayuno: "Buffet",
             disponibilidad: "Disponible",
-            prepago: "Prepago (20-12-2024)",
-            politicaCancelacion: "Flexible",
             precio: "$350",
             imagen: "https://via.placeholder.com/150"
         },
         {
             nombre: "Búzios Beach Resort",
             direccion: "Praia de Tucuns, Búzios",
-            tipoHabitacion: "Bungalow Familiar",
-            desayuno: "Incluido",
             disponibilidad: "Disponible",
-            prepago: "Prepago (25-12-2024)",
-            politicaCancelacion: "Sin devolución",
             precio: "$400",
             imagen: "https://via.placeholder.com/150"
         },
         {
             nombre: "Casa Blanca Inn",
             direccion: "Rua das Pedras 88, Búzios",
-            tipoHabitacion: "Habitación Estándar",
-            desayuno: "Continental",
             disponibilidad: "Agotado",
-            prepago: "N/A",
-            politicaCancelacion: "Sin devolución",
             precio: "$150",
             imagen: "https://via.placeholder.com/150"
         },
         {
             nombre: "Sol y Mar Lodge",
             direccion: "Rua das Gaivotas 33, Búzios",
-            tipoHabitacion: "Habitación con Balcón",
-            desayuno: "Incluido",
             disponibilidad: "Disponible",
-            prepago: "Prepago (22-12-2024)",
-            politicaCancelacion: "Moderada",
             precio: "$200",
             imagen: "https://via.placeholder.com/150"
         },
         {
             nombre: "Ocean View Boutique",
             direccion: "Praia João Fernandes, Búzios",
-            tipoHabitacion: "Habitación Premium",
-            desayuno: "Buffet",
             disponibilidad: "Disponible",
-            prepago: "Prepago (18-12-2024)",
-            politicaCancelacion: "Estricto",
             precio: "$270",
             imagen: "https://via.placeholder.com/150"
         }
@@ -984,7 +948,7 @@ const ResultadoBusqueda = ()=>{
                 children: "Buzios (Brasil)"
             }, void 0, false, {
                 fileName: "[project]/components/ResultadoBusqueda.js",
-                lineNumber: 106,
+                lineNumber: 70,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -992,35 +956,35 @@ const ResultadoBusqueda = ()=>{
                 children: "Precios para 1 habitación del 26/12/2024 al 29/12/2024 | 3 noches | 2 adultos"
             }, void 0, false, {
                 fileName: "[project]/components/ResultadoBusqueda.js",
-                lineNumber: 107,
+                lineNumber: 71,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "space-y-6 border-black",
                 children: articulos.map((articulo, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "card bg-base-100 shadow-lg p-4 flex flex-col lg:flex-row items-center space-y-4 lg:space-y-0 w-full",
+                        className: "card bg-base-100 shadow-lg p-4 flex flex-col lg:flex-row items-center space-y-4 lg:space-y-0 ",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("figure", {
-                                className: "w-full lg:w-80 border-black",
+                                className: "w-full lg:w-80",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                     href: "/detalle",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                         src: articulo.imagen,
                                         alt: articulo.nombre,
-                                        className: "w-full h-auto object-cover border-black"
+                                        className: " max-w-50 h-auto object-cover border-black"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ResultadoBusqueda.js",
-                                        lineNumber: 119,
+                                        lineNumber: 83,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/ResultadoBusqueda.js",
-                                    lineNumber: 118,
+                                    lineNumber: 82,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/ResultadoBusqueda.js",
-                                lineNumber: 117,
+                                lineNumber: 81,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1034,7 +998,7 @@ const ResultadoBusqueda = ()=>{
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/ResultadoBusqueda.js",
-                                        lineNumber: 127,
+                                        lineNumber: 91,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1045,7 +1009,7 @@ const ResultadoBusqueda = ()=>{
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/ResultadoBusqueda.js",
-                                        lineNumber: 128,
+                                        lineNumber: 92,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1057,74 +1021,19 @@ const ResultadoBusqueda = ()=>{
                                                 children: "Ver mapa"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ResultadoBusqueda.js",
-                                                lineNumber: 133,
+                                                lineNumber: 97,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/ResultadoBusqueda.js",
-                                        lineNumber: 131,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-sm",
-                                        children: [
-                                            "🛌 Habitación: ",
-                                            articulo.tipoHabitacion
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/components/ResultadoBusqueda.js",
-                                        lineNumber: 137,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-sm",
-                                        children: [
-                                            "🥞 Régimen: ",
-                                            articulo.desayuno
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/components/ResultadoBusqueda.js",
-                                        lineNumber: 140,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-sm",
-                                        children: [
-                                            "✅ Estado: ",
-                                            articulo.disponibilidad
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/components/ResultadoBusqueda.js",
-                                        lineNumber: 141,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-sm",
-                                        children: [
-                                            "ℹ️ Pago: ",
-                                            articulo.prepago
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/components/ResultadoBusqueda.js",
-                                        lineNumber: 142,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-sm",
-                                        children: [
-                                            "✍🏻",
-                                            articulo.politicaCancelacion
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/components/ResultadoBusqueda.js",
-                                        lineNumber: 143,
+                                        lineNumber: 95,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ResultadoBusqueda.js",
-                                lineNumber: 126,
+                                lineNumber: 90,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1135,7 +1044,7 @@ const ResultadoBusqueda = ()=>{
                                         children: articulo.precio
                                     }, void 0, false, {
                                         fileName: "[project]/components/ResultadoBusqueda.js",
-                                        lineNumber: 146,
+                                        lineNumber: 103,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1145,35 +1054,35 @@ const ResultadoBusqueda = ()=>{
                                             children: "Detalle"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ResultadoBusqueda.js",
-                                            lineNumber: 150,
+                                            lineNumber: 107,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/ResultadoBusqueda.js",
-                                        lineNumber: 149,
+                                        lineNumber: 106,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ResultadoBusqueda.js",
-                                lineNumber: 145,
+                                lineNumber: 102,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, index, true, {
                         fileName: "[project]/components/ResultadoBusqueda.js",
-                        lineNumber: 113,
+                        lineNumber: 77,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/ResultadoBusqueda.js",
-                lineNumber: 111,
+                lineNumber: 75,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/ResultadoBusqueda.js",
-        lineNumber: 105,
+        lineNumber: 69,
         columnNumber: 5
     }, this);
 };
