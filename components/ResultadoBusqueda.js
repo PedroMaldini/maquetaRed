@@ -66,57 +66,65 @@ const ResultadoBusqueda = () => {
   ];
 
   return (
-    <section className="pr-20 mb-5">
-      <h2 className="text-left text-2xl font-semibold mb-2">Buzios (Brasil)</h2>
-      <p className="mb-4">
-        Precios para 1 habitación del 26/12/2024 al 29/12/2024 | 3 noches | 2
-        adultos
-      </p>
-      <div className="space-y-6 border-black">
-        {articulos.map((articulo, index) => (
-          <div
-            key={index}
-            className="card bg-base-100 shadow-lg p-4 flex flex-col lg:flex-row items-center space-y-4 lg:space-y-0 "
-          >
-            <figure className="w-full lg:w-80">
-              <a href="/detalle">
-                <img
-                  src={articulo.imagen}
-                  alt={articulo.nombre}
-                  className=" max-w-50 h-auto object-cover border-black"
-                />
-              </a>
-            </figure>
-            <div className="flex flex-col lg:ml-6 w-full border-black">
-              <h3 className="text-xl font-bold">🏨 Hotel: {articulo.nombre}</h3>
-              <p className="text-sm text-gray-600">
-                🗺️ Dirección: {articulo.direccion}
-              </p>
-              <div>
-                📍
-                <a href="https://maps.google.com" className="link">
-                  Ver mapa
+    <>
+      <section className="pr-20 mb-5">
+        <h2 className="text-left text-2xl font-semibold mb-2">
+          Buzios (Brasil)
+        </h2>
+        <p className="mb-4">
+          Precios para 1 habitación del 26/12/2024 al 29/12/2024 | 3 noches | 2
+          adultos
+        </p>
+        <div className="space-y-6 border-black">
+          {articulos.map((articulo, index) => (
+            <div
+              key={index}
+              className="card bg-base-100 shadow-lg p-4 flex flex-col lg:flex-row items-center space-y-4 lg:space-y-0 "
+            >
+              <figure className="w-full lg:w-80">
+                <a href="/detalle">
+                  <img
+                    src={articulo.imagen}
+                    alt={articulo.nombre}
+                    className=" max-w-50 h-auto object-cover border-black"
+                  />
+                </a>
+              </figure>
+              <div className="flex flex-col lg:ml-6 w-full border-black">
+                <h3 className="text-xl font-bold">
+                  🏨 Hotel: {articulo.nombre}
+                </h3>
+                <p className="text-sm text-gray-600">
+                  🗺️ Dirección: {articulo.direccion}
+                </p>
+                <div>
+                  📍
+                  <a href="https://maps.google.com" className="link">
+                    Ver mapa
+                  </a>
+                </div>
+                <div>
+                  <p className="text-sm pt-2">🥞 Régimen: Desayuno</p>
+                </div>
+                <div>
+                  <p className="text-sm pt-1">✅ Estado: Disponible</p>
+                </div>
+              </div>
+              <div className="flex flex-col items-end justify-end w-full lg:w-auto">
+                <span className="text-lg font-semibold mb-2">
+                  {articulo.precio}
+                </span>
+                <a href="/detalle">
+                  <button className="btn btn-primary btn-sm">
+                    Habitaciones
+                  </button>
                 </a>
               </div>
-              <div>
-                <p className="text-sm pt-2">🥞 Régimen: Desayuno</p>
-              </div>
-              <div>
-                <p className="text-sm pt-1">✅ Estado: Disponible</p>
-              </div>
             </div>
-            <div className="flex flex-col items-end justify-end w-full lg:w-auto">
-              <span className="text-lg font-semibold mb-2">
-                {articulo.precio}
-              </span>
-              <a href="/detalle">
-                <button className="btn btn-primary btn-sm">Habitaciones</button>
-              </a>
-            </div>
-          </div>
-        ))}
-      </div>
-    </section>
+          ))}
+        </div>
+      </section>
+    </>
   );
 };
 

@@ -45,13 +45,12 @@ const Header = () => {
         {/* Botones con iconos a la derecha usando DaisyUI */}
         <div className="hidden md:flex items-center space-x-6">
           {buttons.map((button) => (
-            <button
-              key={button}
-              className="link link-hover btn-sm flex items-center space-x-2 font-semibold"
-            >
-              <FontAwesomeIcon icon={icons[button]} className="size-6" />
-              <span>{button}</span>
-            </button>
+            <a href={`/${button.toLowerCase()}`} key={button}>
+              <button className="link link-hover btn-sm flex items-center space-x-2 font-semibold">
+                <FontAwesomeIcon icon={icons[button]} className="size-6" />
+                <span>{button}</span>
+              </button>
+            </a>
           ))}
         </div>
       </div>

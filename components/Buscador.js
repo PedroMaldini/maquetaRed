@@ -1,9 +1,9 @@
 "use client";
+
 const Buscador = ({ horizontal }) => {
   if (!horizontal) {
-    // Usar la propiedad correctamente
     return (
-      <div className="mx-20 max-w-sm scale-y-80 ">
+      <div className="mx-20 max-w-sm scale-y-80">
         <div className="card bg-base-100 shadow-lg p-2">
           <div className="card-body">
             <div className="border-b border-gray-300 pb-2">
@@ -12,7 +12,7 @@ const Buscador = ({ horizontal }) => {
 
             <form>
               {/* Nacionalidad */}
-              <div className="form-control mb-4 ">
+              <div className="form-control mb-4">
                 <label className="label">
                   <span className="label-text text-center">
                     Nacionalidad del Pasajero
@@ -25,7 +25,7 @@ const Buscador = ({ horizontal }) => {
               </div>
 
               {/* Destino */}
-              <div className="form-control mb-4 ">
+              <div className="form-control mb-4">
                 <label className="label">
                   <span className="label-text">Destino</span>
                 </label>
@@ -38,15 +38,14 @@ const Buscador = ({ horizontal }) => {
 
               {/* Fechas de entrada y salida */}
               <div className="w-full">
-                <div className="form-control mb-4 ">
+                <div className="form-control mb-4">
                   <label className="label">
                     <span className="label-text">IN</span>
                   </label>
                   <input type="date" className="input input-bordered" />
                 </div>
 
-                {/* Fecha de salida */}
-                <div className="form-control mb-4 ">
+                <div className="form-control mb-4">
                   <label className="label">
                     <span className="label-text">OUT</span>
                   </label>
@@ -59,7 +58,6 @@ const Buscador = ({ horizontal }) => {
                 <label className="label">
                   <span className="label-text">Habitaciones</span>
                 </label>
-                {/* Primera línea con habitaciones */}
                 <div className="flex space-x-4 mb-2">
                   <input
                     type="number"
@@ -67,7 +65,6 @@ const Buscador = ({ horizontal }) => {
                     className="input input-bordered w-1/3"
                   />
                 </div>
-                {/* Segunda línea con adultos y niños */}
                 <div className="flex space-x-4">
                   <div className="w-1/3">
                     <label className="label-text">Adultos</label>
@@ -93,7 +90,6 @@ const Buscador = ({ horizontal }) => {
                 <label className="label">
                   <span className="label-text">Solo Disponible</span>
                 </label>
-
                 <select className="select select-bordered">
                   <option>Si</option>
                   <option>No</option>
